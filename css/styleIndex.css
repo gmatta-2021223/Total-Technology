@@ -1,0 +1,301 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+body {
+
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.barra {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #080616;
+    
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.navbar {
+
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo {
+
+    margin-left: 30px;
+
+}
+
+.logo a {
+
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a {
+
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition-duration: 0.5s;
+
+}
+
+.navbar a:hover {
+
+    background: #587ffc;
+
+}
+
+.encabezado {
+
+    
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-size: cover;
+
+    
+   
+
+}
+
+.titulo {
+
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+p {
+
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 150px;
+
+}
+
+.contenido {
+
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.productos {
+
+    padding: 50px 0;
+    background: #1e1e5d;
+
+}
+
+.box-container {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: centers;
+
+}
+
+.box-container .box {
+
+    height: 170px;
+    width: 270px;
+    background: #171717;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+
+}
+
+.box-container .box h3 {
+
+    font-size: 20px;
+    color: #e91e63;
+
+}
+
+.box-container .box p {
+
+    padding: 0 15px;
+    font-size: 16px;
+
+}
+
+.precio {
+
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+.acerca {
+
+    background: #1e1e5d;
+    padding: 50px 0;
+
+}
+
+.box-container2{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+.box-container2 .box {
+
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    background: #171717;
+    margin: 20px 20px;
+
+}
+
+.box-container2 .box img {
+
+    height: 70px;
+    width: 70px;
+    
+    
+    margin-top: -55px;
+    
+
+}
+
+.box-container2 .box h3 {
+
+    font-size: 25px;
+    color: #587ffc;
+    padding-top: 10px;
+
+}
+
+.box-container2 .box p {
+
+    font-size: 18px;
+    color: #fff;
+    padding: 0;
+
+}
+
+.contacto {
+
+
+    padding: 20px 0;
+    background: #121234;
+
+}
+
+
+.pie-seccion{
+
+    display: flex;
+
+}
+
+.p-enlaces {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+
+}
+
+.p-enlaces a {
+
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+
+
+@media (max-width: 800px) {
+
+    p {
+
+        padding: 0 50px;
+
+    }
+
+    .titulo{
+
+        margin-bottom: 0px;
+        font-size: 40px;
+
+    }
+
+    .productos {
+
+        height: 100vh;
+        padding: 50px 0;
+
+    }
+
+    .acerca {
+
+        height: 100vh;
+        padding: 50px 0;
+
+    }
+
+    .pie-seccion {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .p-enlaces {
+
+        display: none;
+
+    }
+
+    .navbar {
+
+        display: none;
+
+    }
+
+}

@@ -1,0 +1,191 @@
+/* ------------------------------------------ General ------------------------------------------ */
+* {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+body {
+
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #1e1e5d;
+
+}
+
+.barra {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #080616;
+    
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.barra h1{
+
+    font-size: 35px;
+    color: white;
+
+}
+
+.navbar {
+
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo {
+
+    margin-left: 30px;
+
+}
+
+.logo a {
+
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a {
+
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    
+
+}
+
+.navbar a:hover {
+
+    background: #587ffc;
+
+}
+
+/* ------------------------------------------ Todo relacionado con los productos ------------------------------------------ */
+
+.pagina-contenido{
+
+    padding: 95px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.producto-contenido{
+
+    margin: 15px;
+    padding: 20px 35px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: #e5eaf5;
+
+}
+
+.producto-contenido:hover{
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1.5);  
+    
+}
+
+.producto-contenido img{
+
+    width: 350px;
+    transition-duration: 0.05s;
+
+}
+
+.producto-contenido img:hover{
+
+    transform: scale(1.15);
+    width: 350px;
+    cursor: pointer;
+
+}
+
+.producto-contenido h1 {
+
+    font-size: 28px;
+    margin-right: 550px;
+    
+}
+
+.producto-contenido h3 {
+
+    font-size: 28px;
+    
+}
+
+/*------------------------------------------ Boton Comprar (No Aplica) ------------------------------------------ */
+
+/*------------------------------------------ Parte Inferior (Contactos) ------------------------------------------ */
+
+.contacto {
+
+
+    padding: 20px 0;
+    background: #121234;
+
+}
+
+.contenido {
+
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contacto h2{
+
+    color: white;
+    padding-bottom: 40px;
+    font-size: 80px;
+
+}
+
+.pie-seccion{
+
+    display: flex;
+    
+
+}
+
+.p-enlaces {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+
+}
+
+.p-enlaces a {
+
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+
